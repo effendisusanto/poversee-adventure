@@ -132,6 +132,10 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }
+        //Intent intent=new Intent(this,DetailInfoActivity.class);
+        //intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+        //startActivity(intent);
+
         // SHOW ALERT
         //Toast.makeText( dashboardActivity, ""+tempValues.getDeviceName() + "Image:"+tempValues.getDeviceDescription()+"Url:"+tempValues.getImageUrl(),Toast.LENGTH_LONG).show();
         //sendMessageToServer("testing");

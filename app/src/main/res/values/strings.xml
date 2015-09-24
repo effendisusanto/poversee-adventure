@@ -8,4 +8,7 @@
     <string name="title_activity_ac_kamar">AC Kamar</string>
     <string name="title_activity_kipas_kamar">Kipas Kamar</string>
     <string name="title_activity_lampu_depan">Lampu Depan</string>
+    <string name="title_activity_splash">splashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
