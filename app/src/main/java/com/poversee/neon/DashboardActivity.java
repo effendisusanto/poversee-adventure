@@ -99,7 +99,13 @@ public class DashboardActivity extends AppCompatActivity {
     /*****************  This function used by adapter ****************/
     public void onItemClick(int mPosition)
     {
+        //Intent intent=new Intent(this,DetailInfoActivity.class);
+        //intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+        //startActivity(intent);
 
+        Intent intent=new Intent(this,splashActivity.class);
+        //intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+        startActivity(intent);
 
         //ListDevice tempValues = ( ListDevice ) data.get(mPosition);
 
