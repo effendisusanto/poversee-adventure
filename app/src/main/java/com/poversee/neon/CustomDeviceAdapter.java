@@ -120,4 +120,3 @@ public class CustomDeviceAdapter extends BaseAdapter implements View.OnClickList
         }
     }
 }
-}
