@@ -4,4 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_detail_info">Device Control</string>
+    <string name="title_activity_lampu_kamar">Lampu Kamar</string>
+    <string name="title_activity_ac_kamar">AC Kamar</string>
+    <string name="title_activity_kipas_kamar">Kipas Kamar</string>
+    <string name="title_activity_lampu_depan">Lampu Depan</string>
 </resources>

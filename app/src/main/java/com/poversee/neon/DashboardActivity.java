@@ -99,13 +99,39 @@ public class DashboardActivity extends AppCompatActivity {
     /*****************  This function used by adapter ****************/
     public void onItemClick(int mPosition)
     {
-        Intent intent=new Intent(this,DetailInfoActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
-        startActivity(intent);
-
-
-        //ListDevice tempValues = ( ListDevice ) data.get(mPosition);
-
+        ListDevice tempValues = ( ListDevice ) data.get(mPosition);
+        String act = tempValues.getDeviceName();
+        switch (act){
+            case "Lampu Kamar": {
+                Intent intent=new Intent(this,LampuKamar.class);
+                intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+                startActivity(intent);
+                break;
+            }
+            case "AC Kamar": {
+                Intent intent=new Intent(this,AcKamar.class);
+                intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+                startActivity(intent);
+                break;
+            }
+            case "Kipas Kamar": {
+                Intent intent=new Intent(this,KipasKamar.class);
+                intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+                startActivity(intent);
+                break;
+            }
+            case "Lampu Depan": {
+                Intent intent=new Intent(this,LampuDepan.class);
+                intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+                startActivity(intent);
+                break;
+            }
+            default: {
+                Intent intent=new Intent(this,DetailInfoActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, String.valueOf(mPosition));
+                startActivity(intent);
+            }
+        }
         // SHOW ALERT
         //Toast.makeText( dashboardActivity, ""+tempValues.getDeviceName() + "Image:"+tempValues.getDeviceDescription()+"Url:"+tempValues.getImageUrl(),Toast.LENGTH_LONG).show();
         //sendMessageToServer("testing");

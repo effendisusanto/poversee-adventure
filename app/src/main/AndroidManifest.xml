@@ -24,6 +24,38 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.poversee.neon.DashboardActivity" />
         </activity>
+        <activity
+            android:name=".LampuKamar"
+            android:label="@string/title_activity_lampu_kamar"
+            android:parentActivityName=".DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.poversee.neon.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".AcKamar"
+            android:label="@string/title_activity_ac_kamar"
+            android:parentActivityName=".DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.poversee.neon.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".KipasKamar"
+            android:label="@string/title_activity_kipas_kamar"
+            android:parentActivityName=".DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.poversee.neon.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".LampuDepan"
+            android:label="@string/title_activity_lampu_depan"
+            android:parentActivityName=".DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.poversee.neon.DashboardActivity" />
+        </activity>
     </application>
 
 </manifest>
